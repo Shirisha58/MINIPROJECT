@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+
+        .name {
+            background-color: skyblue;
+            
+        }
+        .logo_img{
+            padding:0;
+            margin:0;
+            width: 200px;
+            height:100px;
+        }
+
+        .logo {
+            position: fixed;
+            height: 70px;
+            width: 100px;
+            z-index: 1;
+            font-size: 25px;
+            position: relative;
+            left: 5px;
+            color: white;
+            font-weight: bold;
+            line-height: 70px;
+        }
+
+        ul {
+            position: relative;
+            float: right;
+            margin-right: 20px;
+
+        }
+
+        ul li {
+            display: inline-block;
+            line-height: 70px;
+            margin: 0 5px;
+        }
+        ul li a{
+            text-decoration: none;
+            color:white;
+            font-size: 17px;
+        }
+        .img_cod{
+            width:100%;
+            height:300px;
+        }
+        .section{
+            padding-top:1px;
+        
+        }
+        .welcome_img{
+            height:250px;
+            padding:20px;
+            margin: 20px;
+        }
+        .container{
+            padding-top:30px ;
+        }
+        .col-md-8{
+            position:relative;
+            float:left
+        }
+        .coloring{
+            color:red;
+        }
+        .col-md-4{
+            padding: 20px;
+            margin-left: 20px;
+            position: relative;
+           
+        }
+        .col-md-8{
+            padding: 2px;
+            margin: 5px;
+        }
+        .course{
+            
+
+            text-align: left;
+
+            
+        }
+    .course-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+}
+
+.course-item {
+    text-align: center;
+    flex: 1; /* Ensures equal space distribution */
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+}
+
+.course-item img {
+   height: 300px;
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.text_align{
+    display:inline-block;
+    width:100px;
+    text-align:right;
+    padding-right:10px;
+}
+.input_deg{
+    width:10%;
+    height:20px;
+    border-radius: 25%;
+    border:1px solid blue;
+}
+button{
+    background-color: green;
+    width: 100px;
+    height:20px;
+    
+}
+.img1:hover{
+    transform: scale(1.1);
+}
+.img2:hover{
+    transform: scale(1.1);
+}
+.img3:hover{
+    transform: scale(1.1);
+}
+.bnt{
+    width:250px;
+    margin-left:50px;
+}
+        
+            </style>
+</head>
+
+<body>
+    <nav class="name">
+        <img class="logo_img" src="https://codegnan.com/wp-content/uploads/2024/07/Codegnan-Logo-header.webp" alt="">
+        
+        <ul>
+            
+            <li><a href="#about-section">About/Address</a></li>
+            <li><a href="#courses-section">Courses</a></li>
+            <li><a href="#registeration_section">Registration</a></li>
+            
+        </ul>
+    </nav>
+    <div class="section">
+        <img class="img_cod" src="https://scontent.fhyd5-1.fna.fbcdn.net/v/t39.30808-6/395806440_773154858156593_2635345840448807576_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=opQNAODhmtkQ7kNvgF7xYxM&_nc_zt=23&_nc_ht=scontent.fhyd5-1.fna&_nc_gid=AqPEw-4B7YP2GfKEcrUQkp0&oh=00_AYA1WaRAl2vk03R58fSjvgaoGtHlDejYy_-aSqPO8OBdGA&oe=67521781" controls alt="">
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <img class="welcome_img" src="https://static.ambitionbox.com/api/v2/photo/enFUNkhiV25tck5ab0M1WEthZUpkZz09" alt="">
+
+            </div>
+            <section id="about-section">
+            <div class="col-md-4">
+                <h1>Welcome to Codegnan Destination</h1>
+                <p>Whether you are a beginner or a professional who already has learned a few programming languages, you will agree that learning a new language is challenging. Understanding technicality of a new programming language requires the right guidance and helpful resources.
+                    Codegnan helps you in all aspects by taking you closer to your dream job with one of our Python full stack training centres in Hyderabad.</p>
+                    <p>With over two decades, we are bringing international teaching standards to the tech aspirants globally. Nurture your inner coder with us and take a charge of your coding career with the top trending and high paying technologies. This is the right time to enlighten your code “GNAN”.</p>
+                    <h3>OUR BRANCHES</h3>
+                    <h4 class="coloring">Vijayawada</h4>
+                    <p>40-5-19/16, Prasad Naidu Complex, P.B.Siddhartha Busstop,
+                        Moghalrajpuram, Vijayawada, Andhra Pradesh, 520010.</p>
+                    <h4 class="coloring">Hyderabad</h4>
+                    <p>Kothwal Madhava Reddy Plaza, Beside Indian Oil Petrol Bunk, JNTUH Metro Station, Nizampet X Roads, Hyderabad, 500072.</p>
+
+            </div>
+        </section>
+
+        </div>
+
+    </div><br><br><br>
+    <section id="courses-section">
+    <div>
+        <center>
+            <h1 class="course">OUR COURSES</h1>
+        </center>
+    </div>
+    <div class="course-container">
+        <div class="course-item">
+            <img class="img1" src="https://a2itsoft.com/uploads/1630153070.jpg" alt="" />
+            <h3>Python</h3>
+        </div>
+        <div class="course-item">
+            <img class="img2" src="https://www.oxfordinstitute.in/img/java-course.jpg" alt="" />
+            <h3>Java</h3>
+        </div>
+        <div class="course-item">
+            <img class="img3" src="https://tcagurgaon.in/BackendImages/CourseImages/cs-it-training-new-technology-cloud-computing.jpg" alt="" />
+            <h3>Cloud-Computing</h3>
+        </div>
+    </div><br><br><br><br>
+</section>
+
+
+    <section id="registeration_section">
+        <h1 align="center">Register Form</h1><br><br>
+    
+    
+   
+    <div align="center" class="input2">
+    <form method="POST" action="">
+        <label class="text_align" for="">username</label>
+        <input class="input_deg" name="username" type="text"><br><br>
+        <label class="text_align" for="">student_id</label>x
+        <input class="input_deg"  name="student_id" type="text"><br><br>
+        <label class="text_align" for="">Address</label>
+        <input class="input_deg"  name="address" type="text"><br><br>
+        <label class="text_align" for="">password</label>
+        <input class="input_deg"  type="password" name="password" id=""><br><br>
+        <label class="text_align" for="">email</label>
+        <input class="input_deg"  type="email" name="email" id=""><br><br>
+        <button class="bnt"type="submit" >submit</button>
+    </form>
+    </div>
+</section>
+
+</body>
+
+</html>
